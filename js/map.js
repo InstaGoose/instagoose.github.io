@@ -1,6 +1,11 @@
 /* Google Map
  ========================================================*/
 ;
+
+function include(scriptUrl) {
+   document.write('<script src="' + scriptUrl + '"></script>');
+};
+
 (function ($) {
     var o = document.getElementById("google-map");
     if (o) {
