@@ -28,7 +28,7 @@
 }
 .map .location h3 {
   letter-spacing: -1px;
-  line-height: 45px;
+  line-height: 20px;
 }
 .map .location dl {
   font-size: 15px;
@@ -37,7 +37,6 @@
 }
 .map .location dl dd {
   font-weight: 400;
-  color: #ffffff;
   display: inline-block;
 }
 .map .location dl dt {

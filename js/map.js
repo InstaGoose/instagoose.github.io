@@ -9,7 +9,7 @@ function include(scriptUrl) {
 (function ($) {
     var o = document.getElementById("google-map");
     if (o) {
-        include('//maps.google.com/maps/api/js?sensor=false');
+        include('//maps.google.com/maps/api/js');
         include('js/jquery.rd-google-map.js');
 
         $(document).ready(function () {

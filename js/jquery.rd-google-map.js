@@ -139,9 +139,9 @@
 
         defaults = {
             map: {
-                x: 6.90376196,
-                y: 79.9548912,
-                zoom: 14
+                x: 79.9588375,
+                y: 6.9059689,
+                zoom: 15
             },
             locations: []
         };
@@ -228,7 +228,7 @@
 
                         infowindow.setContent(options.locations[this.index].content);
                         infowindow.open(map, this);
-                        $('.gm-style-iw').parent().parent().addClass("gm-wrapper");
+                        //$('.gm-style-iw').parent().parent().addClass("gm-wrapper");
                         this.setIcon(options.locations[this.index].active);
                     });
                     google.maps.event.addListener(infowindow, 'closeclick', function () {
