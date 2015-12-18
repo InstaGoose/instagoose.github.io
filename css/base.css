@@ -206,3 +206,11 @@ footer .social a:hover img {opacity: 1;}
 	.container .one-third.column, .container .eight.columns, .container .four.columns {margin-bottom: 40px;}
 
 }
+
+/* countdown */
+#countdown {
+	font-size: 48px;
+	color: #fff;
+	line-height: 1.1em;
+	margin: 40px 0 60px;
+}
